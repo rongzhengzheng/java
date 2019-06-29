@@ -19,7 +19,7 @@ import lombok.extern.slf4j.Slf4j;
 public class UserServiceImpl implements UserService {
 	@Value("${sp.user-service.users}")
 	private String userJson;
-	
+	//测试
 	@Override
 	public User getUser(Integer id) {
 		log.info("users json string : "+userJson);

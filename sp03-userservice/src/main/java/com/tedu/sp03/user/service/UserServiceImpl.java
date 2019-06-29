@@ -32,7 +32,7 @@ public class UserServiceImpl implements UserService {
 		
 		return new User(id, "name-"+id, "pwd-"+id);
 	}
-
+	//git真好用
 	@Override
 	public void addScore(Integer id, Integer score) {
 		//TODO 这里增加积分

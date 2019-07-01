@@ -13,9 +13,7 @@ import lombok.extern.slf4j.Slf4j;
 @Slf4j
 @Service
 public class ItemServiceImpl implements ItemService {
-	/*
-	 * 测试
-	 * */
+
 	@Override
 	public List<Item> getItems(String orderId) {
 		ArrayList<Item> list = new ArrayList<Item>();
@@ -26,13 +24,6 @@ public class ItemServiceImpl implements ItemService {
 		list.add(new Item(5, "商品 5",5));
 		return list;
 	}
-
-
-	//java
-
-	/*
-	 *代码冲突
-	 **/
 
 	@Override
 	public void decreaseNumbers(List<Item> list) {
